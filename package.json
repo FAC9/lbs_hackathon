@@ -19,6 +19,7 @@
   "dependencies": {
     "hapi": "^15.2.0",
     "inert": "^4.0.2",
+    "tesseract.js": "^1.0.10",
     "vision": "^4.1.0"
   }
 }

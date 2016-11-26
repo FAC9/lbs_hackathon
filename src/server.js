@@ -9,16 +9,16 @@ server.connection({
   port: process.env.PORT | 5000
 });
 
-server.register([inert,vision], (err) => {
+/*server.register([inert,vision], (err) => {
   if (err) throw err;
-  /* server.views({
+   server.views({
   engine: {
-  hbs: //our template file
+  hbs: require('handlebars')
 }
-  relativeTo: __adirname,
+  relativeTo: __dirname,
   path: //path
-}) tell where are the handlebar templates!*/
+}) //tell where are the handlebar templates!
   server.route(routes);
-});
+});*/
 
 module.exports = server;
